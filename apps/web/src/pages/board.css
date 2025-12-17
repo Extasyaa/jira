@@ -1,0 +1,9 @@
+.board-header { display: flex; justify-content: space-between; align-items: center; }
+.columns { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.column { padding: 16px; min-height: 400px; }
+.column-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+.title { font-weight: 700; }
+.muted { color: var(--muted); font-size: 14px; }
+.issue-stack { display: flex; flex-direction: column; gap: 10px; }
+.error { color: #f87171; }
+.skeleton-grid { opacity: 0.7; }
