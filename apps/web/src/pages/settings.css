@@ -1,0 +1,7 @@
+.settings-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+.primary { background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #0b1224; padding: 10px 14px; border-radius: 12px; font-weight: 700; }
+.header-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.column-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 8px; margin-bottom: 8px; }
+.color-rules { display: grid; gap: 12px; }
+.rule { border: 1px solid var(--border); padding: 12px; border-radius: 12px; }
+.actions { display: flex; gap: 12px; align-items: center; }
