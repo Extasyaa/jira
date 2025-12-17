@@ -1,0 +1,10 @@
+.issue-card { border: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(6px); }
+.issue-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.issue-key { font-weight: 700; letter-spacing: 0.5px; }
+.issue-summary { font-size: 15px; margin-bottom: 8px; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.chip { background: rgba(255,255,255,0.06); border-radius: 999px; padding: 6px 10px; display: inline-flex; gap: 6px; align-items: center; font-size: 12px; }
+.comment-form input { width: 100%; border-radius: 10px; border: 1px solid rgba(255,255,255,0.06); background: rgba(255,255,255,0.03); }
+.comments { margin-top: 6px; display: grid; gap: 4px; }
+.comment-row { font-size: 12px; color: var(--muted); }
+.comment-author { color: var(--text); margin-right: 6px; }
